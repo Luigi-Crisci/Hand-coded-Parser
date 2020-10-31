@@ -38,7 +38,7 @@ public class LexerUtils {
     }
 
     public static boolean isKeyword(String s) {
-        return s.equalsIgnoreCase("IF") || s.equalsIgnoreCase("then") || s.equalsIgnoreCase("else") || s.equalsIgnoreCase("while") || s.equalsIgnoreCase("for");
+        return s.equalsIgnoreCase("IF") || s.equalsIgnoreCase("then") || s.equalsIgnoreCase("else") || s.equalsIgnoreCase("while") || s.equalsIgnoreCase("for") || s.equalsIgnoreCase("do");
     }
 
     public static boolean isBlank(CharSequence c) {
