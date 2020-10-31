@@ -1,8 +1,41 @@
 # Hand-coded Parser
 
-A simple Parser in pure Java
+A simple recursive-descend  Parser in pure Java
 
-## Grammar
+## Build  
+
+### Requirements
+
+- Java 11
+- Maven
+
+### IntelliJ Configuratiom
+
+This project is provided with a set of *IntelliJ Configurations:* 
+
+> To run it just import it as a *Maven project* and click *Run*
+
+### Maven Build
+
+Alternatively you can compile manually typing: 
+
+> mvn package
+
+The *jar* file will be placed under the *target/* directory.  
+
+## Structure
+
+The software is composed of two parts:  
+- Lexer
+- Parser
+
+The lexer used in this software is fully described at this [link](https://gitlab.com/compilatori-a.a.-2020_21/hand-coded-lexer-es1_hcl/crisci-cuccurullo_es1_hcl).
+
+In the following sections the structure of the *parser* will be described.
+
+### Grammar
+
+The **Grammar** the parser recognize is the following one:
 
 > Progam -> Stmt Program2   
 > Program2 -> ; Stmt Program2  
@@ -16,3 +49,17 @@ A simple Parser in pure Java
 > Expr2 -> num Expr3  
 > Expr3 -> relop Expr2  
 > Expr3 -> ''  
+
+
+### Class Structure
+
+The class `Parser` takes a `Lexer` object in input and expose a single method `boolean parse()`, which return `true` if the input file text is accepted by the *grammar*, false otherwise.  
+The `parse` method maintain a buffer of the token recognized from the `lexer` during the parsing phase and a pointer to the current token being analyzed.
+
+For each production, a method `boolean productionPRODUCTION_NAME()` is defined, which return `true` if the token sequence read match the production specification. Because of the recursive-descend nature of this parser, backtracking could be necessary when an incorrect production is chosen
+
+## Authors
+- *Luigi Crisci*
+- *Alessio Cuccurullo*
+
+

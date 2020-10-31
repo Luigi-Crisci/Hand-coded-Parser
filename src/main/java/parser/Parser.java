@@ -36,7 +36,7 @@ class Parser {
 	}
 
 	public boolean parse() {
-		return productionProgram();
+		return productionProgram() && isFileEnded();
 	}
 
 	public boolean productionProgram() {
@@ -173,6 +173,10 @@ class Parser {
 
 	private void resetPosition(int startingPos){
 		pointer = startingPos;
+	}
+
+	private boolean isFileEnded(){
+		return LexerUtils.isEmpty(input.get(input.size() - 1));
 	}
 	
 }
