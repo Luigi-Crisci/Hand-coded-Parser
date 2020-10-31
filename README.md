@@ -5,7 +5,7 @@ A simple Parser in pure Java
 ## Grammar
 
 > Progam -> Stmt; Program2   
-> Program2 -> Stmt Program2  
+> Program2 -> Stmt; Program2  
 > Program2 -> ''  
 > Stmt -> if Expr then Stmt else Stmt   
 > Stmt -> id assign Expr  
