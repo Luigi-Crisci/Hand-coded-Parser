@@ -53,10 +53,12 @@ The **Grammar** the parser recognize is the following one:
 
 ### Class Structure
 
-The class `Parser` takes a `Lexer` object in input and expose a single method `boolean parse()`, which return `true` if the input file text is accepted by the *grammar*, false otherwise.  
+The class `Parser` takes a `Lexer` object in input and expose a single method `boolean parse()`, which return `true` if the input file text is accepted by the *grammar* and all the file has been  analyzed, false otherwise.  
 The `parse` method maintain a buffer of the token recognized from the `lexer` during the parsing phase and a pointer to the current token being analyzed.
 
-For each production, a method `boolean productionPRODUCTION_NAME()` is defined, which return `true` if the token sequence read match the production specification. Because of the recursive-descend nature of this parser, backtracking could be necessary when an incorrect production is chosen
+For each nonterminale, a method `boolean productionNONTERMINAL_NAME()` is defined, which return `true` if the token sequence read match a production of that specification nonterminal. Because of the recursive-descend nature of this parser, backtracking could be necessary when an incorrect production is chosen: for this case, each method maintains a `int startingPos` variable pointing to the first token to analyze and, when backtracking is necessary, it sets `pointer` to `startingPos` and try another production.  
+
+If no produciton match the token sequence, each method resets `pointer` to `startingPos` and returns `false`.  
 
 ## Authors
 - *Luigi Crisci*
