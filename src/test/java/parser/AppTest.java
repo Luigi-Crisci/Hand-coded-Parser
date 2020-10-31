@@ -16,9 +16,9 @@ public class AppTest {
     public void ifTest() {
 
         Lexer lexer = new Lexer();
-		lexer.initialize("./nestedifs");
+        lexer.initialize("./nestedifs");
         Parser parser = new Parser(lexer);
-        
+
         assertTrue("Il file non rispetta la grammatica", parser.parse());
     }
 
@@ -26,9 +26,9 @@ public class AppTest {
     public void doWhileTest() {
 
         Lexer lexer = new Lexer();
-		lexer.initialize("./dowhile");
+        lexer.initialize("./dowhile");
         Parser parser = new Parser(lexer);
-        
+
         assertTrue("Il file non rispetta la grammatica", parser.parse());
     }
 
@@ -36,9 +36,19 @@ public class AppTest {
     public void doWhileTest_false() {
 
         Lexer lexer = new Lexer();
-		lexer.initialize("./dowhile2");
+        lexer.initialize("./dowhile2");
         Parser parser = new Parser(lexer);
-        
+
+        assertFalse("Il file non rispetta la grammatica", parser.parse());
+    }
+
+    @Test
+    public void general_false() {
+
+        Lexer lexer = new Lexer();
+        lexer.initialize("./general_false");
+        Parser parser = new Parser(lexer);
+
         assertFalse("Il file non rispetta la grammatica", parser.parse());
     }
 }
