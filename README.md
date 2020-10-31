@@ -37,8 +37,8 @@ In the following sections the structure of the *parser* will be described.
 
 The **Grammar** the parser recognize is the following one:
 
-> Progam -> Stmt; Program2   
-> Program2 -> Stmt; Program2  
+> Progam -> Stmt Program2   
+> Program2 -> ; Stmt Program2  
 > Program2 -> ''  
 > Stmt -> if Expr then Stmt else Stmt   
 > Stmt -> id assign Expr  
