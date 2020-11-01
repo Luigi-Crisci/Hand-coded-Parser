@@ -6,7 +6,7 @@ import lexer.lexeme.AbstractLexemeAnalyzer;
 
 public class LexemeAnalyzerLoader {
 	
-	private static Reflections reflections;
+	private static final Reflections reflections;
 
 	static{
 		reflections = new Reflections("lexer.lexeme");

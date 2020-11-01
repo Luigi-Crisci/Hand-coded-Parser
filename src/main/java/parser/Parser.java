@@ -140,7 +140,7 @@ class Parser {
 		}
 		
 		t = input.get(pointer);
-		if(input.size() > pointer && !t.equals(LexerUtils.EMPTY_TOKEN))
+		if(!t.equals(LexerUtils.EMPTY_TOKEN))
 			pointer++;
 		return t.is(currentToken);
 	}
