@@ -1,15 +1,15 @@
 do 
     if ss < 45
-    then aa <-- adad > a
-    else dd <-- 5 < 3
+    then aa <-- adad
+    else dd <-- 5 
 
 while a < eoeo;
 
 if ss < 45
-then aa <-- adad > a
+then aa <-- adad
 else do 
     if ss < 45
-    then aa <-- adad > a
-    else dd <-- 5 < 3
+    then aa <-- adad
+    else dd <-- 5
 
 while a < eoeo;

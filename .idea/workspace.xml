@@ -40,10 +40,10 @@
       <recent name="C:\Users\luigi\Google Drive\intellij-workspace\Crisci_Cuccurullo-Parser\testfiles_correct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Esempio_3_ERRATA">
+  <component name="RunManager" selected="Application.Esempio_4_CORRETTO">
     <list>
       <item itemvalue="Application.Esempio_1_CORRETTO" />
-      <item itemvalue="Application.Esempio_1_ERRATA" />
+      <item itemvalue="Application.Esempio_2_ERRATA" />
       <item itemvalue="Application.Esempio_3_ERRATA" />
       <item itemvalue="Application.Esempio_4_CORRETTO" />
     </list>
@@ -57,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604176986038</updated>
       <workItem from="1604176987090" duration="1805000" />
-      <workItem from="1604178821543" duration="2047000" />
+      <workItem from="1604178821543" duration="2119000" />
+      <workItem from="1604260631776" duration="173000" />
     </task>
     <servers />
   </component>
@@ -66,10 +67,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604177025860" />
-    <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604184378661">
+    <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604260804835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604184378661" />
+    <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604260804835" />
     <state x="707" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604179071076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -82,22 +83,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604177133227" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604184305855">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604260782415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604184305855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604184305855">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604260782415" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604260782415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604184305855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604184305855">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604260782415" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604260782415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604184305855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604184305855">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604260782415" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604260782415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604184305855" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604260782415" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604178811842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

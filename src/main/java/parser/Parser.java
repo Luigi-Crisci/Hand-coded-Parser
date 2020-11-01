@@ -7,12 +7,10 @@ package parser;
 	Stmt -> if Expr then Stmt else Stmt
 	Stmt -> id assign Expr
 	Stmt -> do Stmt while Expr
-	Expr -> id relop Expr2
-	Expr -> num relop Expr2
-	Expr2 -> id Expr3
-	Expr2 -> num Expr3
-	Expr3 -> relop Expr2
-	Expr3 -> ''
+	Expr -> id Expr2
+	Expr -> num Expr2
+	Expr2 -> relop Expr
+	Expr2 -> ''
 */
 
 import java.util.*;
@@ -106,18 +104,14 @@ class Parser {
 		int startingPos = pointer;
 
 		if (nextTokenIs(ID)) {
-			if (nextTokenIs(RELOP)) {
 				if (productionExpr2())
 					return true;
-			}
 		}
 
 		resetPosition(startingPos);
 		if (nextTokenIs(NUMBER)) {
-			if (nextTokenIs(RELOP)) {
 				if (productionExpr2())
 					return true;
-			}
 		}
 
 		return errorRecovery(startingPos);
@@ -126,24 +120,9 @@ class Parser {
 	public boolean productionExpr2() {
 		int startingPos = pointer;
 
-		if (nextTokenIs(ID)) {
-			if (productionExpr3())
-				return true;
-		}
-
-		resetPosition(startingPos);
-		if(nextTokenIs(NUMBER)){
-			if(productionExpr3())
-				return true;
-		}
-
-		return errorRecovery(startingPos);
-	}
-
-	public boolean productionExpr3() {
-		int startingPos = pointer;
-		if (nextTokenIs(RELOP)) {
-			return productionExpr2();
+		if(nextTokenIs(RELOP)){
+			if (productionExpr()) 
+					return true;
 		}
 
 		resetPosition(startingPos);

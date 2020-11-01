@@ -47,12 +47,10 @@ The **Grammar** the parser recognize is the following:
 > Stmt -> if Expr then Stmt else Stmt   
 > Stmt -> id assign Expr  
 > Stmt -> do Stmt while Expr  
-> Expr -> id relop Expr2  
-> Expr -> num relop Expr2  
-> Expr2 -> id Expr3  
-> Expr2 -> num Expr3  
-> Expr3 -> relop Expr2  
-> Expr3 -> ''  
+> Expr -> id Expr2
+> Expr -> num Expr2  
+> Expr2 -> relop Expr  
+> Expr2 -> ''
 
 
 ### Class Structure

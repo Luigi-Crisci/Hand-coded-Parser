@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Esempio_1_ERRATA" type="Application" factoryName="Application">
+  <configuration default="false" name="Esempio_2_ERRATA" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="parser.Tester" />
     <module name="Crisci_Cuccurullo-Parser" />
     <option name="PROGRAM_PARAMETERS" value="&quot;$ProjectFileDir$\testfiles\dowhile_false&quot;" />
