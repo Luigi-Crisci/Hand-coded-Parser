@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test_source_file_2_INCORRECT" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="parser.Tester" />
+    <module name="Crisci_Cuccurullo-Parser" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;$ProjectFileDir$\testfiles\file_source2.txt&quot;" />
+    <shortenClasspath name="MANIFEST" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -3,12 +3,72 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe85113-c038-477e-b942-dde04f0b8d06" name="Default Changelist" comment="" />
+    <list default="true" id="9fe85113-c038-477e-b942-dde04f0b8d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_dowhile_CORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_1_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_2_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_3_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_4_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_5_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_6_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_source_file_7_INCORRECT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testfiles/file_source7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Esempio_1_CORRETTO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Esempio_2_ERRATA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_dowhile_false_INCORRECT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Esempio_3_ERRATA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_general_false_INCORRECT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Esempio_4_CORRETTO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Test_nestedifs_CORRECT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parser/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parser/SuggestedTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parser/ParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_suite/file_source7.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,8 +84,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testfiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -40,13 +101,41 @@
       <recent name="C:\Users\luigi\Google Drive\intellij-workspace\Crisci_Cuccurullo-Parser\testfiles_correct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Esempio_4_CORRETTO">
+  <component name="RunManager" selected="JUnit.ParserTest">
+    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Crisci_Cuccurullo-Parser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parser" />
+      <option name="MAIN_CLASS_NAME" value="parser.ParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Esempio_1_CORRETTO" />
-      <item itemvalue="Application.Esempio_2_ERRATA" />
-      <item itemvalue="Application.Esempio_3_ERRATA" />
-      <item itemvalue="Application.Esempio_4_CORRETTO" />
+      <item itemvalue="Application.Test_dowhile_CORRECT" />
+      <item itemvalue="Application.Test_dowhile_false_INCORRECT" />
+      <item itemvalue="Application.Test_general_false_INCORRECT" />
+      <item itemvalue="Application.Test_nestedifs_CORRECT" />
+      <item itemvalue="Application.Test_source_file_1_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_2_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_3_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_4_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_5_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_6_INCORRECT" />
+      <item itemvalue="Application.Test_source_file_7_INCORRECT" />
+      <item itemvalue="JUnit.ParserTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParserTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,17 +148,44 @@
       <workItem from="1604176987090" duration="1805000" />
       <workItem from="1604178821543" duration="2119000" />
       <workItem from="1604260631776" duration="389000" />
+      <workItem from="1604346251983" duration="544000" />
+      <workItem from="1604347373875" duration="684000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1604177025860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604177025860" />
-    <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604260804835">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="348" y="43" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604347885862">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="348" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604347885862" />
     <state x="568" y="172" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604260804835" />
     <state x="707" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604179071076">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -83,41 +199,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="322" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604177133227" />
-    <state width="916" height="282" key="GridCell.Tab.0.bottom" timestamp="1604260853769">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="182" key="GridCell.Tab.0.bottom" timestamp="1604347907950">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604347907950" />
     <state width="916" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604260853769" />
-    <state width="916" height="282" key="GridCell.Tab.0.center" timestamp="1604260853769">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="182" key="GridCell.Tab.0.center" timestamp="1604347907950">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604347907950" />
     <state width="916" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604260853769" />
-    <state width="916" height="282" key="GridCell.Tab.0.left" timestamp="1604260853768">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="182" key="GridCell.Tab.0.left" timestamp="1604347907949">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604347907949" />
     <state width="916" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604260853768" />
-    <state width="916" height="282" key="GridCell.Tab.0.right" timestamp="1604260853769">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="182" key="GridCell.Tab.0.right" timestamp="1604347907950">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604347907950" />
     <state width="916" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604260853769" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604260815066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1604347737260">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604347737260" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604260815066" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604260815066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1604347737260">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604347737260" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604260815066" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604260815065">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1604347737259">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604347737259" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604260815065" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604260815066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1604347737260">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604347737260" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604260815066" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604177867508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604177867508" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Crisci_Cuccurullo_Parser$SuggestedTestSuite.ic" NAME="SuggestedTestSuite Coverage Results" MODIFIED="1604347445524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>parser.*</FILTER>
+    </SUITE>
   </component>
 </project>

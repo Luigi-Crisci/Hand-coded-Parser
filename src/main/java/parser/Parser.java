@@ -155,7 +155,7 @@ class Parser {
 	}
 
 	private boolean isFileEnded(){
-		return LexerUtils.isEmpty(input.get(input.size() - 1));
+		return LexerUtils.isEmpty(input.get(pointer));
 	}
 	
 }
