@@ -1,0 +1,31 @@
+if id < 2.0 then
+    do
+        if y < id then
+            while id do x <-- id;
+        else
+            x <-- 3;
+    while id 
+else
+    prova <-- 3;
+do
+       if prova < id then
+            while id do x <-- id;
+       else
+            z <-- 3;
+while id;
+
+if id < 2.0 then
+    do
+        if y < id then
+            while id do x <-- id;
+        else
+            x <-- 3;
+    while id 
+else
+    prova <-- 3;
+do
+       if prova < id then
+            while id do x <-- id;
+       else
+            z <-- 3;
+while id

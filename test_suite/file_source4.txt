@@ -1,0 +1,9 @@
+if pippo < x then
+    id <--y;
+else
+    id <-- 3;
+
+        if y < id then
+            do x <-- id while id ;
+        else
+            x <-- 3
